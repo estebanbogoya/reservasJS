@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 10 Storage</title>
+</head>
+<body>
+    <h1>Clase 10 Storage & JSON</h1>
+    <h2>Sistema de Reserva de Hotel</h2>
+
+    <form id="formulario">
+        <label for="nombre">Nombre del Cliente: </label>
+        <input type="text" id="nombre">
+        <br><br>
+
+        <label for="apellido">Apellido del Cliente</label>
+        <input type="text" id="apellido">
+        <br><br>
+
+        <label for="reserva"> Numero de Reserva</label>
+        <input type="text" id="reserva">
+        <br><br>
+
+        <label for="habitacion"> Habitacion: </label>
+        <select name="habitacion" id="habitacion">
+            <option value="individual">Individual</option>
+            <option value="doble">Doble</option>
+            <option value="suite">Suite</option>
+        </select>
+        <br><br>
+        <button>Reservar</button>
+    </form>
+
+    <h2>Ver Reservas vigentes: </h2>
+    <button id="verReservas">Ver Reservas</button>
+    <div id="contenedorReservas"></div>
+
+    <!-- <script src="./json.js"></script> -->
+    <script src="./reservas.js"></script>
+</body>
+</html>
